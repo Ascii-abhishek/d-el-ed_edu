@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>D.El.Ed Learning</title>
+    <meta name="description" content="Simple bilingual learning website for Diploma in Elementary Education students.">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/reader.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#/" aria-label="D.El.Ed Learning home">
+        <span class="brand-mark" aria-hidden="true">D</span>
+        <span>
+          <strong>D.El.Ed Learning</strong>
+          <small data-i18n="brandSub">Diploma in Elementary Education</small>
+        </span>
+      </a>
+
+      <nav class="top-actions" aria-label="Display settings">
+        <button class="icon-button language-button" id="languageToggle" type="button" aria-label="Change language">
+          <span class="language-icon" aria-hidden="true">文</span>
+          <span class="language-code">हि</span>
+        </button>
+        <button class="icon-button" id="themeToggle" type="button" aria-label="Change theme" title="Theme">◐</button>
+        <div class="font-menu">
+          <button class="icon-button font-button" id="fontMenuButton" type="button" aria-haspopup="true" aria-expanded="false" aria-label="Font settings" title="Font">
+            <span class="font-icon-large">A</span><span class="font-icon-small">A</span>
+          </button>
+          <div class="popover" id="fontPopover" role="menu" hidden>
+            <div class="stepper" aria-label="Font size">
+              <button type="button" id="decreaseFont" aria-label="Decrease font size">-</button>
+              <span id="fontSizeValue">100%</span>
+              <button type="button" id="increaseFont" aria-label="Increase font size">+</button>
+            </div>
+            <label class="field">
+              <span data-i18n="fontStyle">Font style</span>
+              <select id="fontFamilySelect">
+                <option value="system">System</option>
+                <option value="serif">Serif</option>
+                <option value="mono">Mono</option>
+                <option value="rounded">Rounded</option>
+              </select>
+            </label>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main id="app" tabindex="-1"></main>
+
+    <script src="assets/js/catalog.js"></script>
+    <script src="assets/js/i18n.js"></script>
+    <script src="assets/js/settings.js"></script>
+    <script src="assets/js/markdown.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
