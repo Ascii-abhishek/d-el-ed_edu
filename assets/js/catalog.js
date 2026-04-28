@@ -653,72 +653,96 @@ window.COURSE_CATALOG = {
               id: "periodic-table-and-electronegativity",
               title: { en: "Periodic Table and Electronegativity", hi: "आवर्त सारणी और विद्युत ऋणात्मकता" },
               summary: {
-                en: "Basic periodic table arrangement and the idea of electronegativity.",
-                hi: "आवर्त सारणी की मूल व्यवस्था और विद्युत ऋणात्मकता की अवधारणा।"
+                en: "Mendeleev vs modern table, periodic trends, electronegativity, and group/period properties.",
+                hi: "मेंडलीफ बनाम आधुनिक सारणी, आवधिक प्रवृत्तियां, विद्युत ऋणात्मकता और आवर्त/समूह के गुण।"
               },
               file: {
                 en: "content/semester-4/science/en/periodic-table-and-electronegativity.html",
                 hi: "content/semester-4/science/hi/periodic-table-and-electronegativity.html"
+              },
+              test: {
+                en: "content/semester-4/science/en/test_periodic-table-and-electronegativity.html",
+                hi: "content/semester-4/science/hi/test_periodic-table-and-electronegativity.html"
               }
             },
             {
               id: "electric-charge-and-current",
               title: { en: "Electric Charge and Current", hi: "विद्युत आवेश और विद्युत धारा" },
               summary: {
-                en: "Static charge, conductors, insulators, electric current, and daily uses.",
-                hi: "स्थिर आवेश, सुचालक, कुचालक, विद्युत धारा और दैनिक उपयोग।"
+                en: "Ohm's law, series/parallel circuits, electric power, fuses, earthing, and household safety.",
+                hi: "ओम का नियम, श्रेणी/समानांतर परिपथ, विद्युत शक्ति, फ्यूज, अर्थिंग और घरेलू सुरक्षा।"
               },
               file: {
                 en: "content/semester-4/science/en/electric-charge-and-current.html",
                 hi: "content/semester-4/science/hi/electric-charge-and-current.html"
+              },
+              test: {
+                en: "content/semester-4/science/en/test_electric-charge-and-current.html",
+                hi: "content/semester-4/science/hi/test_electric-charge-and-current.html"
               }
             },
             {
               id: "magnetism",
               title: { en: "Magnetism", hi: "चुम्बकत्व" },
               summary: {
-                en: "Properties and uses of magnets, earth as a magnet, and electromagnets.",
-                hi: "चुम्बक के गुण व उपयोग, पृथ्वी का चुम्बकीय व्यवहार और विद्युत चुम्बक।"
+                en: "Natural/artificial magnets, magnetic field lines, earth's magnetism, declination, dip, and electromagnets.",
+                hi: "प्राकृतिक/कृत्रिम चुम्बक, चुम्बकीय क्षेत्र रेखाएं, पृथ्वी का चुम्बकत्व, दिक्पात, नति और विद्युत चुम्बक।"
               },
               file: {
                 en: "content/semester-4/science/en/magnetism.html",
                 hi: "content/semester-4/science/hi/magnetism.html"
+              },
+              test: {
+                en: "content/semester-4/science/en/test_magnetism.html",
+                hi: "content/semester-4/science/hi/test_magnetism.html"
               }
             },
             {
               id: "blood-structure-and-blood-groups",
               title: { en: "Blood Structure and Blood Groups", hi: "रक्त की संरचना और रक्त वर्ग" },
               summary: {
-                en: "Blood components, blood groups, blood bank, and safe transfusion precautions.",
-                hi: "रक्त के घटक, रक्त वर्ग, रक्त बैंक और सुरक्षित रक्त आदान-प्रदान की सावधानियां।"
+                en: "Plasma, RBC, WBC, platelets, ABO system, Rh factor, universal donor/recipient, and blood bank.",
+                hi: "प्लाज्मा, आरबीसी, डब्ल्यूबीसी, प्लेटलेट्स, ABO तंत्र, Rh कारक, सार्वत्रिक दाता/ग्राही और रक्त बैंक।"
               },
               file: {
                 en: "content/semester-4/science/en/blood-structure-and-blood-groups.html",
                 hi: "content/semester-4/science/hi/blood-structure-and-blood-groups.html"
+              },
+              test: {
+                en: "content/semester-4/science/en/test_blood-structure-and-blood-groups.html",
+                hi: "content/semester-4/science/hi/test_blood-structure-and-blood-groups.html"
               }
             },
             {
               id: "blood-related-diseases",
               title: { en: "Blood-related Diseases", hi: "रक्त संबंधी सामान्य रोग" },
               summary: {
-                en: "Common blood-related diseases, AIDS, Hepatitis B, symptoms, and prevention.",
-                hi: "रक्त संबंधी सामान्य रोग, एड्स, हेपेटाइटिस-बी, लक्षण और बचाव।"
+                en: "Anaemia, haemophilia, leukaemia, malaria, dengue, AIDS, and Hepatitis B — causes, symptoms, prevention.",
+                hi: "रक्ताल्पता, हीमोफीलिया, ल्यूकेमिया, मलेरिया, डेंगू, एड्स और हेपेटाइटिस-बी — कारण, लक्षण, बचाव।"
               },
               file: {
                 en: "content/semester-4/science/en/blood-related-diseases.html",
                 hi: "content/semester-4/science/hi/blood-related-diseases.html"
+              },
+              test: {
+                en: "content/semester-4/science/en/test_blood-related-diseases.html",
+                hi: "content/semester-4/science/hi/test_blood-related-diseases.html"
               }
             },
             {
               id: "safety-and-first-aid",
               title: { en: "Safety and First Aid", hi: "सुरक्षा और प्राथमिक उपचार" },
               summary: {
-                en: "Safety habits and first aid during common accidents.",
-                hi: "सुरक्षा की आदतें और सामान्य दुर्घटनाओं में प्राथमिक उपचार।"
+                en: "DRABC protocol, CPR, burns, fractures, bleeding, electric shock, snake bite, and first aid box.",
+                hi: "DRABC प्रोटोकॉल, CPR, जलना, हड्डी टूटना, रक्तस्राव, विद्युत झटका, सांप काटना और प्राथमिक चिकित्सा पेटी।"
               },
               file: {
                 en: "content/semester-4/science/en/safety-and-first-aid.html",
                 hi: "content/semester-4/science/hi/safety-and-first-aid.html"
+              },
+              test: {
+                en: "content/semester-4/science/en/test_safety-and-first-aid.html",
+                hi: "content/semester-4/science/hi/test_safety-and-first-aid.html"
               }
             }
           ],
@@ -727,12 +751,24 @@ window.COURSE_CATALOG = {
               id: "science-1",
               title: { en: "Test 1", hi: "टेस्ट 1" },
               summary: {
-                en: "Mixed practice from evolution, ecosystem, minerals, and metals.",
-                hi: "जैव विकास, पारिस्थितिकी तंत्र, खनिज और धातु से मिश्रित अभ्यास।"
+                en: "Full subject test: evolution, ecosystem, minerals, metals, periodic table, and electricity.",
+                hi: "पूर्ण विषय टेस्ट: जैव विकास, पारिस्थितिकी तंत्र, खनिज, धातु, आवर्त सारणी और विद्युत।"
               },
               file: {
                 en: "content/semester-4/science/tests/en/test_science_1.html",
                 hi: "content/semester-4/science/tests/hi/test_science_1.html"
+              }
+            },
+            {
+              id: "science-2",
+              title: { en: "Test 2", hi: "टेस्ट 2" },
+              summary: {
+                en: "Full subject test: magnetism, blood structure, blood diseases, and safety & first aid.",
+                hi: "पूर्ण विषय टेस्ट: चुम्बकत्व, रक्त संरचना, रक्त रोग और सुरक्षा व प्राथमिक उपचार।"
+              },
+              file: {
+                en: "content/semester-4/science/tests/en/test_science_2.html",
+                hi: "content/semester-4/science/tests/hi/test_science_2.html"
               }
             }
           ]

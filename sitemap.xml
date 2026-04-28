@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Home -->
+  <url>
+    <loc>https://deled.get-crash.in/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Semester 4 → Science chapters (English) -->
+  <url>
+    <loc>https://deled.get-crash.in/#semester/4/science/evolution-and-ecosystem</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://deled.get-crash.in/#semester/4/science/minerals-and-metals</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://deled.get-crash.in/#semester/4/science/periodic-table-and-electronegativity</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://deled.get-crash.in/#semester/4/science/electric-charge-and-current</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://deled.get-crash.in/#semester/4/science/magnetism</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://deled.get-crash.in/#semester/4/science/blood-structure-and-blood-groups</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://deled.get-crash.in/#semester/4/science/blood-related-diseases</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://deled.get-crash.in/#semester/4/science/safety-and-first-aid</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Semester 4 → Science subject tests -->
+  <url>
+    <loc>https://deled.get-crash.in/#semester/4/science/test/science-1</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://deled.get-crash.in/#semester/4/science/test/science-2</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Semester 4 other subjects -->
+  <url>
+    <loc>https://deled.get-crash.in/#semester/4/mathematics/intro</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://deled.get-crash.in/#semester/4/social-science/intro</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://deled.get-crash.in/#semester/4/hindi/intro</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://deled.get-crash.in/#semester/4/english/intro</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://deled.get-crash.in/#semester/4/peace-education/intro</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://deled.get-crash.in/#semester/4/educational-management/intro</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://deled.get-crash.in/#semester/4/assessment/formative-assessment</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Semester 3 subjects -->
+  <url>
+    <loc>https://deled.get-crash.in/#semester/3/science/intro</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://deled.get-crash.in/#semester/3/inclusive-education/intro</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://deled.get-crash.in/#semester/3/environmental-studies/local-environment</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Semester 2 subjects -->
+  <url>
+    <loc>https://deled.get-crash.in/#semester/2/science/intro</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://deled.get-crash.in/#semester/2/language-learning/early-literacy</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Semester 1 subjects -->
+  <url>
+    <loc>https://deled.get-crash.in/#semester/1/child-development-and-learning/intro</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://deled.get-crash.in/#semester/1/science/intro</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>

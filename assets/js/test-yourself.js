@@ -47,9 +47,10 @@
     const correct = choice.value === answer;
     const answerText = optionText(question, answer);
     const answerLine = answerText ? `${answer}: ${answerText}` : answer;
+    const explanation = question.dataset.explanation ? ` — ${question.dataset.explanation}` : "";
     updateFeedback(
       question,
-      correct ? `${t("correct")} ${answerLine}` : `${t("incorrect")} ${answerLine}`,
+      correct ? `${t("correct")} ${answerLine}${explanation}` : `${t("incorrect")} ${answerLine}${explanation}`,
       correct
     );
   }
