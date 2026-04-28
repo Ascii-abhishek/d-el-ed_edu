@@ -4,62 +4,188 @@ window.COURSE_CATALOG = {
       id: "1",
       title: { en: "Semester 1", hi: "सेमेस्टर 1" },
       summary: {
-        en: "Foundations of childhood, learning, and elementary pedagogy.",
-        hi: "बाल्यावस्था, अधिगम और प्राथमिक शिक्षण की आधारभूत समझ।"
+        en: "Child development, teaching-learning principles, and foundational subject knowledge.",
+        hi: "बाल विकास, शिक्षण-अधिगम के सिद्धांत और मूलभूत विषय ज्ञान।"
       },
       subjects: [
         {
-          id: "childhood-and-development",
-          title: { en: "Childhood and Development", hi: "बाल्यावस्था और विकास" },
+          id: "child-development-and-learning",
+          title: {
+            en: "Child Development and Learning",
+            hi: "बाल विकास एवं सीखने की प्रक्रिया"
+          },
           summary: {
-            en: "Understand child growth, learning contexts, and classroom observation.",
-            hi: "बाल विकास, सीखने के संदर्भ और कक्षा अवलोकन को समझें।"
+            en: "Growth stages, learning theories, and understanding child behavior in classrooms.",
+            hi: "विकास के चरण, अधिगम सिद्धांत और कक्षा में बाल व्यवहार की समझ।"
           },
           topics: [
             {
-              id: "meaning-of-childhood",
-              title: { en: "Meaning of Childhood", hi: "बाल्यावस्था का अर्थ" },
+              id: "intro",
+              title: { en: "Introduction", hi: "परिचय" },
               summary: {
-                en: "Key ideas, developmental stages, and reflective prompts.",
-                hi: "मुख्य विचार, विकास के चरण और चिंतन प्रश्न।"
+                en: "Overview of child development and the learning process.",
+                hi: "बाल विकास और सीखने की प्रक्रिया का संक्षिप्त परिचय।"
               },
               file: {
-                en: "content/semester-1/childhood-and-development/en/meaning-of-childhood.html",
-                hi: "content/semester-1/childhood-and-development/hi/meaning-of-childhood.html"
-              }
-            },
-            {
-              id: "learning-environment",
-              title: { en: "Learning Environment", hi: "अधिगम वातावरण" },
-              summary: {
-                en: "How safety, play, language, and relationships support learning.",
-                hi: "सुरक्षा, खेल, भाषा और संबंध सीखने में कैसे सहायक होते हैं।"
-              },
-              file: {
-                en: "content/semester-1/childhood-and-development/en/learning-environment.html",
-                hi: "content/semester-1/childhood-and-development/hi/learning-environment.html"
+                en: "content/semester-1/child-development-and-learning/en/intro.html",
+                hi: "content/semester-1/child-development-and-learning/hi/intro.html"
               }
             }
           ]
         },
         {
-          id: "pedagogy",
-          title: { en: "Pedagogy Basics", hi: "शिक्षणशास्त्र की आधार बातें" },
+          id: "teaching-learning-principles",
+          title: {
+            en: "Principles of Teaching Learning",
+            hi: "शिक्षण अधिगम के सिद्धांत"
+          },
           summary: {
-            en: "Lesson planning, teaching methods, and classroom interaction.",
-            hi: "पाठ योजना, शिक्षण विधियां और कक्षा संवाद।"
+            en: "Key principles of effective teaching, learning models, and classroom application.",
+            hi: "प्रभावी शिक्षण के प्रमुख सिद्धांत, अधिगम मॉडल और कक्षा में प्रयोग।"
           },
           topics: [
             {
-              id: "lesson-planning",
-              title: { en: "Lesson Planning", hi: "पाठ योजना" },
+              id: "intro",
+              title: { en: "Introduction", hi: "परिचय" },
               summary: {
-                en: "Objectives, teaching aids, activities, and assessment ideas.",
-                hi: "उद्देश्य, शिक्षण सामग्री, गतिविधियां और मूल्यांकन विचार।"
+                en: "Overview of teaching-learning principles and their classroom relevance.",
+                hi: "शिक्षण-अधिगम सिद्धांतों और कक्षा में उनकी प्रासंगिकता का परिचय।"
               },
               file: {
-                en: "content/semester-1/pedagogy/en/lesson-planning.html",
-                hi: "content/semester-1/pedagogy/hi/lesson-planning.html"
+                en: "content/semester-1/teaching-learning-principles/en/intro.html",
+                hi: "content/semester-1/teaching-learning-principles/hi/intro.html"
+              }
+            }
+          ]
+        },
+        {
+          id: "science",
+          title: { en: "Science", hi: "विज्ञान" },
+          summary: {
+            en: "Basic science concepts taught in primary school and their pedagogical approach.",
+            hi: "प्राथमिक विद्यालय में पढ़ाई जाने वाली बुनियादी विज्ञान अवधारणाएं और उनका शिक्षण।"
+          },
+          topics: [
+            {
+              id: "intro",
+              title: { en: "Introduction", hi: "परिचय" },
+              summary: {
+                en: "Overview of the science curriculum for semester 1.",
+                hi: "सेमेस्टर 1 के विज्ञान पाठ्यक्रम का संक्षिप्त परिचय।"
+              },
+              file: {
+                en: "content/semester-1/science/en/intro.html",
+                hi: "content/semester-1/science/hi/intro.html"
+              }
+            }
+          ]
+        },
+        {
+          id: "mathematics",
+          title: { en: "Mathematics", hi: "गणित" },
+          summary: {
+            en: "Foundational mathematics concepts and methods for primary-level teaching.",
+            hi: "प्राथमिक स्तर पर शिक्षण के लिए मूलभूत गणित अवधारणाएं और विधियां।"
+          },
+          topics: [
+            {
+              id: "intro",
+              title: { en: "Introduction", hi: "परिचय" },
+              summary: {
+                en: "Overview of the mathematics curriculum for semester 1.",
+                hi: "सेमेस्टर 1 के गणित पाठ्यक्रम का संक्षिप्त परिचय।"
+              },
+              file: {
+                en: "content/semester-1/mathematics/en/intro.html",
+                hi: "content/semester-1/mathematics/hi/intro.html"
+              }
+            }
+          ]
+        },
+        {
+          id: "social-science",
+          title: { en: "Social Science", hi: "सामाजिक विज्ञान" },
+          summary: {
+            en: "History, geography, and civics concepts for primary-level teaching.",
+            hi: "प्राथमिक स्तर पर शिक्षण के लिए इतिहास, भूगोल और नागरिक शास्त्र।"
+          },
+          topics: [
+            {
+              id: "intro",
+              title: { en: "Introduction", hi: "परिचय" },
+              summary: {
+                en: "Overview of the social science curriculum for semester 1.",
+                hi: "सेमेस्टर 1 के सामाजिक विज्ञान पाठ्यक्रम का संक्षिप्त परिचय।"
+              },
+              file: {
+                en: "content/semester-1/social-science/en/intro.html",
+                hi: "content/semester-1/social-science/hi/intro.html"
+              }
+            }
+          ]
+        },
+        {
+          id: "hindi",
+          title: { en: "Hindi", hi: "हिंदी" },
+          summary: {
+            en: "Hindi language skills: reading, writing, grammar, and literature for primary teachers.",
+            hi: "प्राथमिक शिक्षकों के लिए हिंदी भाषा कौशल: पठन, लेखन, व्याकरण और साहित्य।"
+          },
+          topics: [
+            {
+              id: "intro",
+              title: { en: "Introduction", hi: "परिचय" },
+              summary: {
+                en: "Overview of the Hindi curriculum for semester 1.",
+                hi: "सेमेस्टर 1 के हिंदी पाठ्यक्रम का संक्षिप्त परिचय।"
+              },
+              file: {
+                en: "content/semester-1/hindi/en/intro.html",
+                hi: "content/semester-1/hindi/hi/intro.html"
+              }
+            }
+          ]
+        },
+        {
+          id: "sanskrit",
+          title: { en: "Sanskrit", hi: "संस्कृत" },
+          summary: {
+            en: "Basic Sanskrit grammar, vocabulary, and reading for D.El.Ed students.",
+            hi: "डी.एल.एड छात्रों के लिए मूलभूत संस्कृत व्याकरण, शब्दावली और पठन।"
+          },
+          topics: [
+            {
+              id: "intro",
+              title: { en: "Introduction", hi: "परिचय" },
+              summary: {
+                en: "Overview of the Sanskrit curriculum for semester 1.",
+                hi: "सेमेस्टर 1 के संस्कृत पाठ्यक्रम का संक्षिप्त परिचय।"
+              },
+              file: {
+                en: "content/semester-1/sanskrit/en/intro.html",
+                hi: "content/semester-1/sanskrit/hi/intro.html"
+              }
+            }
+          ]
+        },
+        {
+          id: "computer",
+          title: { en: "Computer", hi: "कंप्यूटर" },
+          summary: {
+            en: "Basic computer literacy, hardware, software, and educational technology.",
+            hi: "बुनियादी कंप्यूटर साक्षरता, हार्डवेयर, सॉफ्टवेयर और शैक्षिक प्रौद्योगिकी।"
+          },
+          topics: [
+            {
+              id: "intro",
+              title: { en: "Introduction", hi: "परिचय" },
+              summary: {
+                en: "Overview of the computer curriculum for semester 1.",
+                hi: "सेमेस्टर 1 के कंप्यूटर पाठ्यक्रम का संक्षिप्त परिचय।"
+              },
+              file: {
+                en: "content/semester-1/computer/en/intro.html",
+                hi: "content/semester-1/computer/hi/intro.html"
               }
             }
           ]
@@ -70,33 +196,167 @@ window.COURSE_CATALOG = {
       id: "2",
       title: { en: "Semester 2", hi: "सेमेस्टर 2" },
       summary: {
-        en: "Language learning, school culture, and classroom communication.",
-        hi: "भाषा अधिगम, विद्यालय संस्कृति और कक्षा संचार।"
+        en: "Contemporary Indian society, new approaches to primary education, and subject teaching.",
+        hi: "वर्तमान भारतीय समाज, प्रारम्भिक शिक्षा के नवीन प्रयास और विषय शिक्षण।"
       },
       subjects: [
         {
-          id: "language-learning",
-          title: { en: "Language Learning", hi: "भाषा अधिगम" },
-          summary: { en: "Reading, writing, speaking, and multilingual classrooms.", hi: "पठन, लेखन, बोलना और बहुभाषी कक्षाएं।" },
+          id: "contemporary-indian-society",
+          title: {
+            en: "Contemporary Indian Society and Primary Education",
+            hi: "वर्तमान भारतीय समाज एवं प्रारम्भिक शिक्षा"
+          },
+          summary: {
+            en: "Social structures, diversity, equity, and the role of primary education in India today.",
+            hi: "सामाजिक संरचनाएं, विविधता, समानता और आज के भारत में प्रारम्भिक शिक्षा की भूमिका।"
+          },
           topics: [
             {
-              id: "early-literacy",
-              title: { en: "Early Literacy", hi: "प्रारंभिक साक्षरता" },
-              summary: { en: "Print awareness, stories, and foundational literacy habits.", hi: "मुद्रित सामग्री की समझ, कहानियां और साक्षरता की आदतें।" },
-              file: { en: "content/semester-2/language-learning/en/early-literacy.html", hi: "content/semester-2/language-learning/hi/early-literacy.html" }
+              id: "intro",
+              title: { en: "Introduction", hi: "परिचय" },
+              summary: {
+                en: "Overview of contemporary Indian society and its relationship with primary education.",
+                hi: "वर्तमान भारतीय समाज और प्रारम्भिक शिक्षा के संबंध का संक्षिप्त परिचय।"
+              },
+              file: {
+                en: "content/semester-2/contemporary-indian-society/en/intro.html",
+                hi: "content/semester-2/contemporary-indian-society/hi/intro.html"
+              }
             }
           ]
         },
         {
-          id: "school-culture",
-          title: { en: "School Culture", hi: "विद्यालय संस्कृति" },
-          summary: { en: "Routines, relationships, inclusion, and community connect.", hi: "दिनचर्या, संबंध, समावेशन और समुदाय से जुड़ाव।" },
+          id: "new-efforts-primary-education",
+          title: {
+            en: "New Efforts in Primary Education",
+            hi: "प्रारम्भिक शिक्षा के नवीन प्रयास"
+          },
+          summary: {
+            en: "Recent initiatives, policies, and innovative approaches in Indian primary education.",
+            hi: "भारतीय प्रारम्भिक शिक्षा में हाल के प्रयास, नीतियां और नवाचारी दृष्टिकोण।"
+          },
           topics: [
             {
-              id: "classroom-routines",
-              title: { en: "Classroom Routines", hi: "कक्षा दिनचर्या" },
-              summary: { en: "Simple structures that make classrooms calm and predictable.", hi: "सरल व्यवस्थाएं जो कक्षा को शांत और पूर्वानुमेय बनाती हैं।" },
-              file: { en: "content/semester-2/school-culture/en/classroom-routines.html", hi: "content/semester-2/school-culture/hi/classroom-routines.html" }
+              id: "intro",
+              title: { en: "Introduction", hi: "परिचय" },
+              summary: {
+                en: "Overview of new efforts and reforms in primary education.",
+                hi: "प्रारम्भिक शिक्षा में नवीन प्रयासों और सुधारों का संक्षिप्त परिचय।"
+              },
+              file: {
+                en: "content/semester-2/new-efforts-primary-education/en/intro.html",
+                hi: "content/semester-2/new-efforts-primary-education/hi/intro.html"
+              }
+            }
+          ]
+        },
+        {
+          id: "science",
+          title: { en: "Science", hi: "विज्ञान" },
+          summary: {
+            en: "Science content and teaching methods for semester 2.",
+            hi: "सेमेस्टर 2 के लिए विज्ञान की विषयवस्तु और शिक्षण विधियां।"
+          },
+          topics: [
+            {
+              id: "intro",
+              title: { en: "Introduction", hi: "परिचय" },
+              summary: {
+                en: "Overview of the science curriculum for semester 2.",
+                hi: "सेमेस्टर 2 के विज्ञान पाठ्यक्रम का संक्षिप्त परिचय।"
+              },
+              file: {
+                en: "content/semester-2/science/en/intro.html",
+                hi: "content/semester-2/science/hi/intro.html"
+              }
+            }
+          ]
+        },
+        {
+          id: "mathematics",
+          title: { en: "Mathematics", hi: "गणित" },
+          summary: {
+            en: "Mathematics content and teaching methods for semester 2.",
+            hi: "सेमेस्टर 2 के लिए गणित की विषयवस्तु और शिक्षण विधियां।"
+          },
+          topics: [
+            {
+              id: "intro",
+              title: { en: "Introduction", hi: "परिचय" },
+              summary: {
+                en: "Overview of the mathematics curriculum for semester 2.",
+                hi: "सेमेस्टर 2 के गणित पाठ्यक्रम का संक्षिप्त परिचय।"
+              },
+              file: {
+                en: "content/semester-2/mathematics/en/intro.html",
+                hi: "content/semester-2/mathematics/hi/intro.html"
+              }
+            }
+          ]
+        },
+        {
+          id: "social-science",
+          title: { en: "Social Science", hi: "सामाजिक विज्ञान" },
+          summary: {
+            en: "Social science content and teaching methods for semester 2.",
+            hi: "सेमेस्टर 2 के लिए सामाजिक विज्ञान की विषयवस्तु और शिक्षण विधियां।"
+          },
+          topics: [
+            {
+              id: "intro",
+              title: { en: "Introduction", hi: "परिचय" },
+              summary: {
+                en: "Overview of the social science curriculum for semester 2.",
+                hi: "सेमेस्टर 2 के सामाजिक विज्ञान पाठ्यक्रम का संक्षिप्त परिचय।"
+              },
+              file: {
+                en: "content/semester-2/social-science/en/intro.html",
+                hi: "content/semester-2/social-science/hi/intro.html"
+              }
+            }
+          ]
+        },
+        {
+          id: "hindi",
+          title: { en: "Hindi", hi: "हिंदी" },
+          summary: {
+            en: "Hindi language teaching methods and content for semester 2.",
+            hi: "सेमेस्टर 2 के लिए हिंदी भाषा शिक्षण विधियां और विषयवस्तु।"
+          },
+          topics: [
+            {
+              id: "intro",
+              title: { en: "Introduction", hi: "परिचय" },
+              summary: {
+                en: "Overview of the Hindi curriculum for semester 2.",
+                hi: "सेमेस्टर 2 के हिंदी पाठ्यक्रम का संक्षिप्त परिचय।"
+              },
+              file: {
+                en: "content/semester-2/hindi/en/intro.html",
+                hi: "content/semester-2/hindi/hi/intro.html"
+              }
+            }
+          ]
+        },
+        {
+          id: "english",
+          title: { en: "English", hi: "अंग्रेजी" },
+          summary: {
+            en: "English language skills and teaching approaches for primary-level educators.",
+            hi: "प्राथमिक स्तर के शिक्षकों के लिए अंग्रेजी भाषा कौशल और शिक्षण दृष्टिकोण।"
+          },
+          topics: [
+            {
+              id: "intro",
+              title: { en: "Introduction", hi: "परिचय" },
+              summary: {
+                en: "Overview of the English curriculum for semester 2.",
+                hi: "सेमेस्टर 2 के अंग्रेजी पाठ्यक्रम का संक्षिप्त परिचय।"
+              },
+              file: {
+                en: "content/semester-2/english/en/intro.html",
+                hi: "content/semester-2/english/hi/intro.html"
+              }
             }
           ]
         }
@@ -106,33 +366,186 @@ window.COURSE_CATALOG = {
       id: "3",
       title: { en: "Semester 3", hi: "सेमेस्टर 3" },
       summary: {
-        en: "Inclusive education, environmental studies, and deeper classroom practice.",
-        hi: "समावेशी शिक्षा, पर्यावरण अध्ययन और गहन कक्षा अभ्यास।"
+        en: "Educational evaluation, action research, inclusive education, and subject teaching practice.",
+        hi: "शैक्षिक मूल्यांकन, क्रियात्मक शोध, समावेशी शिक्षा और विषय शिक्षण अभ्यास।"
       },
       subjects: [
         {
-          id: "inclusive-education",
-          title: { en: "Inclusive Education", hi: "समावेशी शिक्षा" },
-          summary: { en: "Supporting diverse learners with dignity and planning.", hi: "विविध शिक्षार्थियों को सम्मान और योजना से सहयोग देना।" },
+          id: "educational-evaluation-action-research",
+          title: {
+            en: "Educational Evaluation, Action Research and Innovation",
+            hi: "शैक्षिक मूल्यांकन, क्रियात्मक शोध एवं नवाचार"
+          },
+          summary: {
+            en: "Assessment tools, action research methods, and classroom innovation for teachers.",
+            hi: "शिक्षकों के लिए मूल्यांकन उपकरण, क्रियात्मक शोध विधियां और कक्षा नवाचार।"
+          },
           topics: [
             {
-              id: "barrier-free-classroom",
-              title: { en: "Barrier-free Classroom", hi: "बाधा-मुक्त कक्षा" },
-              summary: { en: "Access, participation, and practical teaching adjustments.", hi: "पहुंच, सहभागिता और व्यावहारिक शिक्षण बदलाव।" },
-              file: { en: "content/semester-3/inclusive-education/en/barrier-free-classroom.html", hi: "content/semester-3/inclusive-education/hi/barrier-free-classroom.html" }
+              id: "intro",
+              title: { en: "Introduction", hi: "परिचय" },
+              summary: {
+                en: "Overview of educational evaluation, action research, and innovation.",
+                hi: "शैक्षिक मूल्यांकन, क्रियात्मक शोध और नवाचार का संक्षिप्त परिचय।"
+              },
+              file: {
+                en: "content/semester-3/educational-evaluation-action-research/en/intro.html",
+                hi: "content/semester-3/educational-evaluation-action-research/hi/intro.html"
+              }
             }
           ]
         },
         {
-          id: "environmental-studies",
-          title: { en: "Environmental Studies", hi: "पर्यावरण अध्ययन" },
-          summary: { en: "Local environment, observation, maps, and activities.", hi: "स्थानीय पर्यावरण, अवलोकन, मानचित्र और गतिविधियां।" },
+          id: "inclusive-education",
+          title: { en: "Inclusive Education", hi: "समावेशी शिक्षा" },
+          summary: {
+            en: "Supporting diverse learners, disabilities, special needs, and inclusive classroom strategies.",
+            hi: "विविध शिक्षार्थियों का सहयोग, विकलांगता, विशेष आवश्यकताएं और समावेशी कक्षा रणनीतियां।"
+          },
           topics: [
             {
-              id: "local-environment",
-              title: { en: "Local Environment", hi: "स्थानीय पर्यावरण" },
-              summary: { en: "Connect EVS topics with children's surroundings.", hi: "ईवीएस विषयों को बच्चों के परिवेश से जोड़ें।" },
-              file: { en: "content/semester-3/environmental-studies/en/local-environment.html", hi: "content/semester-3/environmental-studies/hi/local-environment.html" }
+              id: "intro",
+              title: { en: "Introduction", hi: "परिचय" },
+              summary: {
+                en: "Overview of inclusive education: concept, principles, and classroom practice.",
+                hi: "समावेशी शिक्षा का परिचय: अवधारणा, सिद्धांत और कक्षा अभ्यास।"
+              },
+              file: {
+                en: "content/semester-3/inclusive-education/en/intro.html",
+                hi: "content/semester-3/inclusive-education/hi/intro.html"
+              }
+            }
+          ]
+        },
+        {
+          id: "science",
+          title: { en: "Science", hi: "विज्ञान" },
+          summary: {
+            en: "Science content and teaching methods for semester 3.",
+            hi: "सेमेस्टर 3 के लिए विज्ञान की विषयवस्तु और शिक्षण विधियां।"
+          },
+          topics: [
+            {
+              id: "intro",
+              title: { en: "Introduction", hi: "परिचय" },
+              summary: {
+                en: "Overview of the science curriculum for semester 3.",
+                hi: "सेमेस्टर 3 के विज्ञान पाठ्यक्रम का संक्षिप्त परिचय।"
+              },
+              file: {
+                en: "content/semester-3/science/en/intro.html",
+                hi: "content/semester-3/science/hi/intro.html"
+              }
+            }
+          ]
+        },
+        {
+          id: "mathematics",
+          title: { en: "Mathematics", hi: "गणित" },
+          summary: {
+            en: "Mathematics content and teaching methods for semester 3.",
+            hi: "सेमेस्टर 3 के लिए गणित की विषयवस्तु और शिक्षण विधियां।"
+          },
+          topics: [
+            {
+              id: "intro",
+              title: { en: "Introduction", hi: "परिचय" },
+              summary: {
+                en: "Overview of the mathematics curriculum for semester 3.",
+                hi: "सेमेस्टर 3 के गणित पाठ्यक्रम का संक्षिप्त परिचय।"
+              },
+              file: {
+                en: "content/semester-3/mathematics/en/intro.html",
+                hi: "content/semester-3/mathematics/hi/intro.html"
+              }
+            }
+          ]
+        },
+        {
+          id: "social-science",
+          title: { en: "Social Science", hi: "सामाजिक विज्ञान" },
+          summary: {
+            en: "Social science content and teaching methods for semester 3.",
+            hi: "सेमेस्टर 3 के लिए सामाजिक विज्ञान की विषयवस्तु और शिक्षण विधियां।"
+          },
+          topics: [
+            {
+              id: "intro",
+              title: { en: "Introduction", hi: "परिचय" },
+              summary: {
+                en: "Overview of the social science curriculum for semester 3.",
+                hi: "सेमेस्टर 3 के सामाजिक विज्ञान पाठ्यक्रम का संक्षिप्त परिचय।"
+              },
+              file: {
+                en: "content/semester-3/social-science/en/intro.html",
+                hi: "content/semester-3/social-science/hi/intro.html"
+              }
+            }
+          ]
+        },
+        {
+          id: "hindi",
+          title: { en: "Hindi", hi: "हिंदी" },
+          summary: {
+            en: "Hindi language teaching methods and content for semester 3.",
+            hi: "सेमेस्टर 3 के लिए हिंदी भाषा शिक्षण विधियां और विषयवस्तु।"
+          },
+          topics: [
+            {
+              id: "intro",
+              title: { en: "Introduction", hi: "परिचय" },
+              summary: {
+                en: "Overview of the Hindi curriculum for semester 3.",
+                hi: "सेमेस्टर 3 के हिंदी पाठ्यक्रम का संक्षिप्त परिचय।"
+              },
+              file: {
+                en: "content/semester-3/hindi/en/intro.html",
+                hi: "content/semester-3/hindi/hi/intro.html"
+              }
+            }
+          ]
+        },
+        {
+          id: "sanskrit",
+          title: { en: "Sanskrit", hi: "संस्कृत" },
+          summary: {
+            en: "Sanskrit language skills and teaching content for semester 3.",
+            hi: "सेमेस्टर 3 के लिए संस्कृत भाषा कौशल और शिक्षण विषयवस्तु।"
+          },
+          topics: [
+            {
+              id: "intro",
+              title: { en: "Introduction", hi: "परिचय" },
+              summary: {
+                en: "Overview of the Sanskrit curriculum for semester 3.",
+                hi: "सेमेस्टर 3 के संस्कृत पाठ्यक्रम का संक्षिप्त परिचय।"
+              },
+              file: {
+                en: "content/semester-3/sanskrit/en/intro.html",
+                hi: "content/semester-3/sanskrit/hi/intro.html"
+              }
+            }
+          ]
+        },
+        {
+          id: "computer",
+          title: { en: "Computer", hi: "कंप्यूटर" },
+          summary: {
+            en: "Computer skills and educational technology content for semester 3.",
+            hi: "सेमेस्टर 3 के लिए कंप्यूटर कौशल और शैक्षिक प्रौद्योगिकी विषयवस्तु।"
+          },
+          topics: [
+            {
+              id: "intro",
+              title: { en: "Introduction", hi: "परिचय" },
+              summary: {
+                en: "Overview of the computer curriculum for semester 3.",
+                hi: "सेमेस्टर 3 के कंप्यूटर पाठ्यक्रम का संक्षिप्त परिचय।"
+              },
+              file: {
+                en: "content/semester-3/computer/en/intro.html",
+                hi: "content/semester-3/computer/hi/intro.html"
+              }
             }
           ]
         }
@@ -142,10 +555,60 @@ window.COURSE_CATALOG = {
       id: "4",
       title: { en: "Semester 4", hi: "सेमेस्टर 4" },
       summary: {
-        en: "Internship, assessment, reflection, and professional readiness.",
-        hi: "इंटर्नशिप, मूल्यांकन, चिंतन और व्यावसायिक तैयारी।"
+        en: "Language and mathematics at primary level, educational management, science, and peace education.",
+        hi: "आरंभिक स्तर पर भाषा व गणित, शैक्षिक प्रबंधन, विज्ञान और शांति शिक्षा।"
       },
       subjects: [
+        {
+          id: "language-and-mathematics-primary",
+          title: {
+            en: "Language and Mathematics at Primary Level",
+            hi: "आरंभिक स्तर पर भाषा एवं गणित"
+          },
+          summary: {
+            en: "Teaching language and mathematics at the foundational stage of schooling.",
+            hi: "विद्यालयी शिक्षा के प्रारंभिक स्तर पर भाषा और गणित का शिक्षण।"
+          },
+          topics: [
+            {
+              id: "intro",
+              title: { en: "Introduction", hi: "परिचय" },
+              summary: {
+                en: "Overview of language and mathematics teaching at the primary level.",
+                hi: "प्राथमिक स्तर पर भाषा और गणित शिक्षण का संक्षिप्त परिचय।"
+              },
+              file: {
+                en: "content/semester-4/language-and-mathematics-primary/en/intro.html",
+                hi: "content/semester-4/language-and-mathematics-primary/hi/intro.html"
+              }
+            }
+          ]
+        },
+        {
+          id: "educational-management",
+          title: {
+            en: "Educational Management and Administration",
+            hi: "शैक्षिक प्रबंधन एवं प्रशासन"
+          },
+          summary: {
+            en: "School management, administrative structures, leadership, and teacher responsibilities.",
+            hi: "विद्यालय प्रबंधन, प्रशासनिक संरचनाएं, नेतृत्व और शिक्षक उत्तरदायित्व।"
+          },
+          topics: [
+            {
+              id: "intro",
+              title: { en: "Introduction", hi: "परिचय" },
+              summary: {
+                en: "Overview of educational management and administration.",
+                hi: "शैक्षिक प्रबंधन और प्रशासन का संक्षिप्त परिचय।"
+              },
+              file: {
+                en: "content/semester-4/educational-management/en/intro.html",
+                hi: "content/semester-4/educational-management/hi/intro.html"
+              }
+            }
+          ]
+        },
         {
           id: "science",
           title: { en: "Science", hi: "विज्ञान" },
@@ -275,28 +738,115 @@ window.COURSE_CATALOG = {
           ]
         },
         {
-          id: "internship",
-          title: { en: "School Internship", hi: "विद्यालय इंटर्नशिप" },
-          summary: { en: "Planning, teaching practice, observation, and reflection.", hi: "योजना, शिक्षण अभ्यास, अवलोकन और चिंतन।" },
+          id: "mathematics",
+          title: { en: "Mathematics", hi: "गणित" },
+          summary: {
+            en: "Mathematics content and teaching methods for semester 4.",
+            hi: "सेमेस्टर 4 के लिए गणित की विषयवस्तु और शिक्षण विधियां।"
+          },
           topics: [
             {
-              id: "reflective-journal",
-              title: { en: "Reflective Journal", hi: "चिंतन डायरी" },
-              summary: { en: "Record classroom experiences and improve teaching decisions.", hi: "कक्षा अनुभव लिखें और शिक्षण निर्णय बेहतर बनाएं।" },
-              file: { en: "content/semester-4/internship/en/reflective-journal.html", hi: "content/semester-4/internship/hi/reflective-journal.html" }
+              id: "intro",
+              title: { en: "Introduction", hi: "परिचय" },
+              summary: {
+                en: "Overview of the mathematics curriculum for semester 4.",
+                hi: "सेमेस्टर 4 के गणित पाठ्यक्रम का संक्षिप्त परिचय।"
+              },
+              file: {
+                en: "content/semester-4/mathematics/en/intro.html",
+                hi: "content/semester-4/mathematics/hi/intro.html"
+              }
             }
           ]
         },
         {
-          id: "assessment",
-          title: { en: "Assessment for Learning", hi: "अधिगम के लिए मूल्यांकन" },
-          summary: { en: "Observation, feedback, rubrics, and learner progress.", hi: "अवलोकन, प्रतिक्रिया, रूब्रिक और शिक्षार्थी प्रगति।" },
+          id: "social-science",
+          title: { en: "Social Science", hi: "सामाजिक विज्ञान" },
+          summary: {
+            en: "Social science content and teaching methods for semester 4.",
+            hi: "सेमेस्टर 4 के लिए सामाजिक विज्ञान की विषयवस्तु और शिक्षण विधियां।"
+          },
           topics: [
             {
-              id: "formative-assessment",
-              title: { en: "Formative Assessment", hi: "रचनात्मक मूल्यांकन" },
-              summary: { en: "Use daily evidence to support learning in time.", hi: "दैनिक प्रमाणों से समय पर सीखने में सहयोग दें।" },
-              file: { en: "content/semester-4/assessment/en/formative-assessment.html", hi: "content/semester-4/assessment/hi/formative-assessment.html" }
+              id: "intro",
+              title: { en: "Introduction", hi: "परिचय" },
+              summary: {
+                en: "Overview of the social science curriculum for semester 4.",
+                hi: "सेमेस्टर 4 के सामाजिक विज्ञान पाठ्यक्रम का संक्षिप्त परिचय।"
+              },
+              file: {
+                en: "content/semester-4/social-science/en/intro.html",
+                hi: "content/semester-4/social-science/hi/intro.html"
+              }
+            }
+          ]
+        },
+        {
+          id: "hindi",
+          title: { en: "Hindi", hi: "हिंदी" },
+          summary: {
+            en: "Hindi language teaching methods and content for semester 4.",
+            hi: "सेमेस्टर 4 के लिए हिंदी भाषा शिक्षण विधियां और विषयवस्तु।"
+          },
+          topics: [
+            {
+              id: "intro",
+              title: { en: "Introduction", hi: "परिचय" },
+              summary: {
+                en: "Overview of the Hindi curriculum for semester 4.",
+                hi: "सेमेस्टर 4 के हिंदी पाठ्यक्रम का संक्षिप्त परिचय।"
+              },
+              file: {
+                en: "content/semester-4/hindi/en/intro.html",
+                hi: "content/semester-4/hindi/hi/intro.html"
+              }
+            }
+          ]
+        },
+        {
+          id: "english",
+          title: { en: "English", hi: "अंग्रेजी" },
+          summary: {
+            en: "English language skills and teaching approaches for semester 4.",
+            hi: "सेमेस्टर 4 के लिए अंग्रेजी भाषा कौशल और शिक्षण दृष्टिकोण।"
+          },
+          topics: [
+            {
+              id: "intro",
+              title: { en: "Introduction", hi: "परिचय" },
+              summary: {
+                en: "Overview of the English curriculum for semester 4.",
+                hi: "सेमेस्टर 4 के अंग्रेजी पाठ्यक्रम का संक्षिप्त परिचय।"
+              },
+              file: {
+                en: "content/semester-4/english/en/intro.html",
+                hi: "content/semester-4/english/hi/intro.html"
+              }
+            }
+          ]
+        },
+        {
+          id: "peace-education",
+          title: {
+            en: "Peace Education and Sustainable Efforts",
+            hi: "शांति शिक्षा एवं सतत प्रयास"
+          },
+          summary: {
+            en: "Promoting peace, harmony, and sustainable practices through education.",
+            hi: "शिक्षा के माध्यम से शांति, सद्भाव और सतत प्रथाओं को बढ़ावा देना।"
+          },
+          topics: [
+            {
+              id: "intro",
+              title: { en: "Introduction", hi: "परिचय" },
+              summary: {
+                en: "Overview of peace education and sustainable efforts in schooling.",
+                hi: "विद्यालयी शिक्षा में शांति शिक्षा और सतत प्रयासों का संक्षिप्त परिचय।"
+              },
+              file: {
+                en: "content/semester-4/peace-education/en/intro.html",
+                hi: "content/semester-4/peace-education/hi/intro.html"
+              }
             }
           ]
         }
