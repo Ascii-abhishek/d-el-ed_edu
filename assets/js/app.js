@@ -249,6 +249,7 @@
         </div>
       `;
       window.TestYourself?.init(shell);
+      scheduleMathTypeset(shell);
 
       document.getElementById("completeButton").addEventListener("click", () => {
         const progress = readProgress();
@@ -285,6 +286,7 @@
         </div>
       `;
       window.TestYourself?.init(shell);
+      scheduleMathTypeset(shell);
     } catch (error) {
       shell.innerHTML = `
         <h1>${label(topic.title)}</h1>
@@ -303,6 +305,7 @@
       const content = await fetchContent(contentPath);
       shell.innerHTML = normalizeContentAssets(content, contentPath);
       window.TestYourself?.init(shell);
+      scheduleMathTypeset(shell);
     } catch (error) {
       shell.innerHTML = `
         <h1>${label(subjectTest.title)}</h1>
@@ -347,6 +350,27 @@
 
   function isExternalOrSpecialUrl(value) {
     return /^(?:[a-z][a-z0-9+.-]*:|#|\/)/i.test(value);
+  }
+
+  function scheduleMathTypeset(root) {
+    if (!root) return;
+
+    const tryTypeset = () => {
+      if (!window.MathJax?.typesetPromise) return false;
+      window.MathJax.typesetClear?.([root]);
+      window.MathJax.typesetPromise([root]).catch(() => {});
+      return true;
+    };
+
+    if (tryTypeset()) return;
+
+    let attempts = 0;
+    const timer = window.setInterval(() => {
+      attempts += 1;
+      if (tryTypeset() || attempts > 20) {
+        window.clearInterval(timer);
+      }
+    }, 250);
   }
 
   function bindReaderActions() {

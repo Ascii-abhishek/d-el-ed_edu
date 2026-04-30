@@ -777,20 +777,136 @@ window.COURSE_CATALOG = {
           id: "mathematics",
           title: { en: "Mathematics", hi: "गणित" },
           summary: {
-            en: "Mathematics content and teaching methods for semester 4.",
-            hi: "सेमेस्टर 4 के लिए गणित की विषयवस्तु और शिक्षण विधियां।"
+            en: "Semester 4 mathematics revision: algebra, probability, statistics, mensuration, trigonometry, equations, circles, and quadrilaterals.",
+            hi: "सेमेस्टर 4 गणित का त्वरित पुनरावर्तन: बीजगणित, प्रायिकता, सांख्यिकी, क्षेत्रमिति, त्रिकोणमिति, समीकरण, वृत्त और चतुर्भुज।"
           },
           topics: [
             {
-              id: "intro",
-              title: { en: "Introduction", hi: "परिचय" },
+              id: "sets-and-algebra-basics",
+              title: { en: "Sets and Algebra Basics", hi: "समुच्चय और बीजगणित की आधारभूत बातें" },
               summary: {
-                en: "Overview of the mathematics curriculum for semester 4.",
-                hi: "सेमेस्टर 4 के गणित पाठ्यक्रम का संक्षिप्त परिचय।"
+                en: "Set notation, union and intersection, exponents, roots, and algebraic identities used in exam questions.",
+                hi: "समुच्चय संकेत, संघ-छेदन, घातांक, मूल और परीक्षा में पूछी जाने वाली बीजगणितीय सर्वसमिकाएँ।"
               },
               file: {
-                en: "content/semester-4/mathematics/en/intro.html",
-                hi: "content/semester-4/mathematics/hi/intro.html"
+                en: "content/semester-4/mathematics/en/sets-and-algebra-basics.html",
+                hi: "content/semester-4/mathematics/hi/sets-and-algebra-basics.html"
+              },
+              test: {
+                en: "content/semester-4/mathematics/en/test_sets-and-algebra-basics.html",
+                hi: "content/semester-4/mathematics/hi/test_sets-and-algebra-basics.html"
+              }
+            },
+            {
+              id: "probability",
+              title: { en: "Probability", hi: "प्रायिकता" },
+              summary: {
+                en: "Sample space, favourable outcomes, complementary events, and classic coin and dice questions.",
+                hi: "प्रतिदर्श समष्टि, अनुकूल परिणाम, पूरक घटना और सिक्का-पासा आधारित प्रश्न।"
+              },
+              file: {
+                en: "content/semester-4/mathematics/en/probability.html",
+                hi: "content/semester-4/mathematics/hi/probability.html"
+              },
+              test: {
+                en: "content/semester-4/mathematics/en/test_probability.html",
+                hi: "content/semester-4/mathematics/hi/test_probability.html"
+              }
+            },
+            {
+              id: "statistics-median-and-mode",
+              title: { en: "Statistics: Median and Mode", hi: "सांख्यिकी: माध्यिका और बहुलक" },
+              summary: {
+                en: "Reading data, arranging observations, and finding median and mode quickly.",
+                hi: "आँकड़ों को पढ़ना, अवलोकनों को क्रम में रखना और माध्यिका व बहुलक निकालना।"
+              },
+              file: {
+                en: "content/semester-4/mathematics/en/statistics-median-and-mode.html",
+                hi: "content/semester-4/mathematics/hi/statistics-median-and-mode.html"
+              },
+              test: {
+                en: "content/semester-4/mathematics/en/test_statistics-median-and-mode.html",
+                hi: "content/semester-4/mathematics/hi/test_statistics-median-and-mode.html"
+              }
+            },
+            {
+              id: "mensuration",
+              title: { en: "Mensuration", hi: "क्षेत्रमिति" },
+              summary: {
+                en: "Surface area, volume, and quick formulas for cuboid, cylinder, cone, and related figures.",
+                hi: "घनाभ, बेलन, शंकु आदि के पृष्ठीय क्षेत्रफल, आयतन और त्वरित सूत्र।"
+              },
+              file: {
+                en: "content/semester-4/mathematics/en/mensuration.html",
+                hi: "content/semester-4/mathematics/hi/mensuration.html"
+              },
+              test: {
+                en: "content/semester-4/mathematics/en/test_mensuration.html",
+                hi: "content/semester-4/mathematics/hi/test_mensuration.html"
+              }
+            },
+            {
+              id: "trigonometry",
+              title: { en: "Trigonometry", hi: "त्रिकोणमिति" },
+              summary: {
+                en: "Basic ratios, standard values, and direct application questions from right triangles.",
+                hi: "मूल अनुपात, मानक मान और समकोण त्रिभुज आधारित प्रत्यक्ष प्रश्न।"
+              },
+              file: {
+                en: "content/semester-4/mathematics/en/trigonometry.html",
+                hi: "content/semester-4/mathematics/hi/trigonometry.html"
+              },
+              test: {
+                en: "content/semester-4/mathematics/en/test_trigonometry.html",
+                hi: "content/semester-4/mathematics/hi/test_trigonometry.html"
+              }
+            },
+            {
+              id: "linear-and-quadratic-equations",
+              title: { en: "Linear and Quadratic Equations", hi: "रैखिक और द्विघात समीकरण" },
+              summary: {
+                en: "Solving one-variable and simple quadratic equations used in short and long answer questions.",
+                hi: "एक चर वाले तथा सरल द्विघात समीकरणों का हल, जो लघु और दीर्घ उत्तरीय में आते हैं।"
+              },
+              file: {
+                en: "content/semester-4/mathematics/en/linear-and-quadratic-equations.html",
+                hi: "content/semester-4/mathematics/hi/linear-and-quadratic-equations.html"
+              },
+              test: {
+                en: "content/semester-4/mathematics/en/test_linear-and-quadratic-equations.html",
+                hi: "content/semester-4/mathematics/hi/test_linear-and-quadratic-equations.html"
+              }
+            },
+            {
+              id: "circle",
+              title: { en: "Circle", hi: "वृत्त" },
+              summary: {
+                en: "Radius, diameter, chord, tangent, arcs, and common theorem-based observations.",
+                hi: "त्रिज्या, व्यास, जीवा, स्पर्शरेखा, चाप और सामान्य प्रमेय आधारित बातें।"
+              },
+              file: {
+                en: "content/semester-4/mathematics/en/circle.html",
+                hi: "content/semester-4/mathematics/hi/circle.html"
+              },
+              test: {
+                en: "content/semester-4/mathematics/en/test_circle.html",
+                hi: "content/semester-4/mathematics/hi/test_circle.html"
+              }
+            },
+            {
+              id: "quadrilaterals",
+              title: { en: "Quadrilaterals", hi: "चतुर्भुज" },
+              summary: {
+                en: "Parallelogram, rhombus, trapezium, cyclic quadrilateral, and angle-area relations.",
+                hi: "समांतर चतुर्भुज, समचतुर्भुज, समलम्ब चतुर्भुज, चक्रीय चतुर्भुज और कोण-क्षेत्रफल संबंध।"
+              },
+              file: {
+                en: "content/semester-4/mathematics/en/quadrilaterals.html",
+                hi: "content/semester-4/mathematics/hi/quadrilaterals.html"
+              },
+              test: {
+                en: "content/semester-4/mathematics/en/test_quadrilaterals.html",
+                hi: "content/semester-4/mathematics/hi/test_quadrilaterals.html"
               }
             }
           ]
